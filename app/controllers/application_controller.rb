@@ -10,7 +10,7 @@ class ApplicationController < Sinatra::Base
   end
 end
 
-class Dog 
+class Dog
 
   attr_accessor :name, :age
   attr_reader :breed
